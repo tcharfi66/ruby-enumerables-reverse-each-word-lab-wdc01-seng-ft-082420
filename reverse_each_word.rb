@@ -13,12 +13,12 @@ end
 
 def reverse_each_word(string){
   
-  original_arr =string.split("")
+  original_arr =string.split(" ")
   reversed_arr = []
   original_arr.collect { |word|
       reversed_arr << word.reverse  
   }
-  reversed_arr.join
+  reversed_arr.join(" ")
   
   
 }
