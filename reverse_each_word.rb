@@ -10,3 +10,11 @@ end
 
 
 #with collect 
+
+def reverse_each_word(string){
+  
+  original_array =string.split("")
+  
+  
+  
+}
