@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def reverse_each_word_with_each(string)
  
   original_arr = string.split(" ")
   reversed_arr = []
@@ -9,3 +9,15 @@ def reverse_each_word(string)
 end
 
 
+#with collect 
+def reverse_each_word(string) do
+  
+  original_arr =string.split(" ")
+  reversed_arr = []
+  
+  original_arr.collect do |string|
+      reversed_arr << string.reverse  
+  end
+  reversed_arr.join(" ")
+  
+end
