@@ -11,7 +11,7 @@ end
 
 #with collect 
 
-def reverse_each_word(string){
+def reverse_each_word(string)do
   
   original_arr =string.split(" ")
   reversed_arr = []
@@ -21,4 +21,4 @@ def reverse_each_word(string){
   reversed_arr.join(" ")
   
   
-}
+end
