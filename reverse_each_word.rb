@@ -10,8 +10,7 @@ end
 
 
 #with collect 
-
-def reverse_each_word(string)do
+def reverse_each_word(string) do
   
   original_arr =string.split(" ")
   reversed_arr = []
@@ -19,6 +18,5 @@ def reverse_each_word(string)do
       reversed_arr << word.reverse  
   end
   reversed_arr.join(" ")
-  
   
 end
